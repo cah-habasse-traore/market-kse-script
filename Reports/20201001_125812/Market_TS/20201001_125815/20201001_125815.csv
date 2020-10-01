@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Market_TS,,,,2020-10-01 12:59:11,2020-10-01 12:59:15,4.454s,FAILED
+,,,,,,,
+Test Cases/Market-Script,,,Script,2020-10-01 12:59:11,2020-10-01 12:59:15,4.219s,FAILED
+"openBrowser("""")",,,,2020-10-01 12:59:12,2020-10-01 12:59:15,3.878s,FAILED

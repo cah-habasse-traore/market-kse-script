@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Market_TS,Chrome 85.0.4183.121,,,2020-10-01 13:02:44,2020-10-01 13:03:23,38.852s,PASSED
+,,,,,,,
+Test Cases/Market-Script,Chrome 85.0.4183.121,,Script,2020-10-01 13:02:44,2020-10-01 13:03:23,38.512s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.121,,,2020-10-01 13:02:45,2020-10-01 13:02:49,3.768s,PASSED
+"navigateToUrl(""market.cardinalhealth.com"")",Chrome 85.0.4183.121,,,2020-10-01 13:02:49,2020-10-01 13:02:51,2.401s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Login_Page/Page_/input_Username_username""), 5)",Chrome 85.0.4183.121,,,2020-10-01 13:02:51,2020-10-01 13:02:52,0.764s,PASSED
+"setText(findTestObject(""Object Repository/Market_Login_Page/Page_/input_Username_username""), ""mktnrsyn_int"")",Chrome 85.0.4183.121,,,2020-10-01 13:02:52,2020-10-01 13:02:53,0.736s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Login_Page/Page_/input_ Case Sensitive_password""), 5)",Chrome 85.0.4183.121,,,2020-10-01 13:02:53,2020-10-01 13:02:53,0.304s,PASSED
+"setText(findTestObject(""Object Repository/Market_Login_Page/Page_/input_ Case Sensitive_password""), ""Btbms4us!"")",Chrome 85.0.4183.121,,,2020-10-01 13:02:53,2020-10-01 13:02:54,0.777s,PASSED
+"click(findTestObject(""Object Repository/Market_Login_Page/Page_/button_Sign In""))",Chrome 85.0.4183.121,Click on 'Login' button,,2020-10-01 13:02:54,2020-10-01 13:02:54,0.450s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Main_Page/Page_Home/ul_Products""), 5)",Chrome 85.0.4183.121,Market Main Page,,2020-10-01 13:02:54,2020-10-01 13:03:01,7.167s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Search_Page/Page_Home/button_Logout_home-search-button""), 5)",Chrome 85.0.4183.121,Market Search Page,,2020-10-01 13:03:01,2020-10-01 13:03:02,0.277s,PASSED
+"setText(findTestObject(""Object Repository/Market_Search_Page/Page_Home/input_Logout_col-xs-12 home-search-box ng-untouched ng-pristine ng-invalid""), ""isolation gown yellow"")",Chrome 85.0.4183.121,,,2020-10-01 13:03:02,2020-10-01 13:03:02,0.640s,PASSED
+"click(findTestObject(""Object Repository/Market_Search_Page/Page_Home/button_Logout_home-search-button""))",Chrome 85.0.4183.121,Click on 'Search' button,,2020-10-01 13:03:02,2020-10-01 13:03:03,0.364s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Add_To_Cart/Page_Search/h4_Category""), 5)",Chrome 85.0.4183.121,Market Add To Cart,,2020-10-01 13:03:03,2020-10-01 13:03:07,4.299s,PASSED
+"waitForElementVisible(findTestObject(""Market_Add_To_Cart/Page_Search/span_Add to Cart""), 5)",Chrome 85.0.4183.121,,,2020-10-01 13:03:07,2020-10-01 13:03:07,0.280s,PASSED
+"click(findTestObject(""Object Repository/Market_Add_To_Cart/Page_Search/span_Add to Cart""))",Chrome 85.0.4183.121,,,2020-10-01 13:03:07,2020-10-01 13:03:07,0.343s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Add_To_Cart/Page_Search/span_1 Items""), 5)",Chrome 85.0.4183.121,,,2020-10-01 13:03:07,2020-10-01 13:03:09,1.313s,PASSED
+"click(findTestObject(""Object Repository/Market_Add_To_Cart/Page_Search/span_Cart_full""))",Chrome 85.0.4183.121,,,2020-10-01 13:03:09,2020-10-01 13:03:09,0.356s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/span_Cart""), 5)",Chrome 85.0.4183.121,Market Checkout Page,,2020-10-01 13:03:09,2020-10-01 13:03:11,1.786s,PASSED
+"setText(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/input_ PO_poNumber""), ""PerfT0001"")",Chrome 85.0.4183.121,,,2020-10-01 13:03:11,2020-10-01 13:03:12,0.610s,PASSED
+"setText(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/textarea_PO Memo_poMemo""), ""BSM Test"")",Chrome 85.0.4183.121,,,2020-10-01 13:03:12,2020-10-01 13:03:12,0.747s,PASSED
+"click(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/span_Packing Slip_checkbox-icon large""))",Chrome 85.0.4183.121,,,2020-10-01 13:03:12,2020-10-01 13:03:13,0.339s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/button_Update Cart""))",Chrome 85.0.4183.121,,,2020-10-01 13:03:13,2020-10-01 13:03:13,0.273s,PASSED
+"click(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/button_Update Cart""))",Chrome 85.0.4183.121,,,2020-10-01 13:03:13,2020-10-01 13:03:13,0.315s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/button_Checkout""))",Chrome 85.0.4183.121,,,2020-10-01 13:03:13,2020-10-01 13:03:15,1.828s,PASSED
+"click(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/button_Checkout""))",Chrome 85.0.4183.121,,,2020-10-01 13:03:15,2020-10-01 13:03:15,0.304s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Clear_Cart/Page_Checkout/span_Previous Page""), 5)",Chrome 85.0.4183.121,Market Clear Cart,,2020-10-01 13:03:15,2020-10-01 13:03:18,2.346s,PASSED
+"click(findTestObject(""Object Repository/Market_Clear_Cart/Page_Checkout/span_Previous Page""))",Chrome 85.0.4183.121,,,2020-10-01 13:03:18,2020-10-01 13:03:18,0.555s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/span_Packing Slip_checkbox-icon large""), 5)",Chrome 85.0.4183.121,,,2020-10-01 13:03:18,2020-10-01 13:03:19,1.188s,PASSED
+"click(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/span_Packing Slip_checkbox-icon large""))",Chrome 85.0.4183.121,,,2020-10-01 13:03:19,2020-10-01 13:03:20,0.329s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/span_Delete""))",Chrome 85.0.4183.121,,,2020-10-01 13:03:20,2020-10-01 13:03:20,0.267s,PASSED
+"click(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/span_Delete""))",Chrome 85.0.4183.121,,,2020-10-01 13:03:20,2020-10-01 13:03:20,0.314s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/button_Confirm""), 5)",Chrome 85.0.4183.121,,,2020-10-01 13:03:20,2020-10-01 13:03:21,0.285s,PASSED
+"click(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/button_Confirm""))",Chrome 85.0.4183.121,,,2020-10-01 13:03:21,2020-10-01 13:03:21,0.305s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/div_The selected item(s) were deleted""), 5)",Chrome 85.0.4183.121,,,2020-10-01 13:03:21,2020-10-01 13:03:22,1.512s,PASSED
+"""Market Logout Page""",Chrome 85.0.4183.121,,,2020-10-01 13:03:22,2020-10-01 13:03:22,0.000s,PASSED
+"click(findTestObject(""Object Repository/Market_Logout_Page/Page_Search/span_Logout""))",Chrome 85.0.4183.121,Click on 'Logout' button,,2020-10-01 13:03:22,2020-10-01 13:03:23,0.315s,PASSED
+closeBrowser(),Chrome 85.0.4183.121,,,2020-10-01 13:03:23,2020-10-01 13:03:23,0.157s,PASSED

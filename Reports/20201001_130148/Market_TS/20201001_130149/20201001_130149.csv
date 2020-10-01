@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Market_TS,Firefox 81.0,,,2020-10-01 13:01:56,2020-10-01 13:02:39,42.975s,PASSED
+,,,,,,,
+Test Cases/Market-Script,Firefox 81.0,,Script,2020-10-01 13:01:56,2020-10-01 13:02:39,42.692s,PASSED
+"openBrowser("""")",Firefox 81.0,,,2020-10-01 13:01:57,2020-10-01 13:02:01,4.828s,PASSED
+"navigateToUrl(""market.cardinalhealth.com"")",Firefox 81.0,,,2020-10-01 13:02:01,2020-10-01 13:02:04,2.329s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Login_Page/Page_/input_Username_username""), 5)",Firefox 81.0,,,2020-10-01 13:02:04,2020-10-01 13:02:04,0.735s,PASSED
+"setText(findTestObject(""Object Repository/Market_Login_Page/Page_/input_Username_username""), ""mktnrsyn_int"")",Firefox 81.0,,,2020-10-01 13:02:04,2020-10-01 13:02:05,0.774s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Login_Page/Page_/input_ Case Sensitive_password""), 5)",Firefox 81.0,,,2020-10-01 13:02:05,2020-10-01 13:02:06,0.418s,PASSED
+"setText(findTestObject(""Object Repository/Market_Login_Page/Page_/input_ Case Sensitive_password""), ""Btbms4us!"")",Firefox 81.0,,,2020-10-01 13:02:06,2020-10-01 13:02:06,0.769s,PASSED
+"click(findTestObject(""Object Repository/Market_Login_Page/Page_/button_Sign In""))",Firefox 81.0,Click on 'Login' button,,2020-10-01 13:02:06,2020-10-01 13:02:07,0.635s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Main_Page/Page_Home/ul_Products""), 5)",Firefox 81.0,Market Main Page,,2020-10-01 13:02:07,2020-10-01 13:02:14,7.481s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Search_Page/Page_Home/button_Logout_home-search-button""), 5)",Firefox 81.0,Market Search Page,,2020-10-01 13:02:14,2020-10-01 13:02:15,0.297s,PASSED
+"setText(findTestObject(""Object Repository/Market_Search_Page/Page_Home/input_Logout_col-xs-12 home-search-box ng-untouched ng-pristine ng-invalid""), ""isolation gown yellow"")",Firefox 81.0,,,2020-10-01 13:02:15,2020-10-01 13:02:15,0.612s,PASSED
+"click(findTestObject(""Object Repository/Market_Search_Page/Page_Home/button_Logout_home-search-button""))",Firefox 81.0,Click on 'Search' button,,2020-10-01 13:02:15,2020-10-01 13:02:16,0.762s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Add_To_Cart/Page_Search/h4_Category""), 5)",Firefox 81.0,Market Add To Cart,,2020-10-01 13:02:16,2020-10-01 13:02:21,4.401s,PASSED
+"waitForElementVisible(findTestObject(""Market_Add_To_Cart/Page_Search/span_Add to Cart""), 5)",Firefox 81.0,,,2020-10-01 13:02:21,2020-10-01 13:02:21,0.308s,PASSED
+"click(findTestObject(""Object Repository/Market_Add_To_Cart/Page_Search/span_Add to Cart""))",Firefox 81.0,,,2020-10-01 13:02:21,2020-10-01 13:02:21,0.525s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Add_To_Cart/Page_Search/span_1 Items""), 5)",Firefox 81.0,,,2020-10-01 13:02:21,2020-10-01 13:02:23,1.211s,PASSED
+"click(findTestObject(""Object Repository/Market_Add_To_Cart/Page_Search/span_Cart_full""))",Firefox 81.0,,,2020-10-01 13:02:23,2020-10-01 13:02:23,0.549s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/span_Cart""), 5)",Firefox 81.0,Market Checkout Page,,2020-10-01 13:02:23,2020-10-01 13:02:25,1.498s,PASSED
+"setText(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/input_ PO_poNumber""), ""PerfT0001"")",Firefox 81.0,,,2020-10-01 13:02:25,2020-10-01 13:02:25,0.544s,PASSED
+"setText(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/textarea_PO Memo_poMemo""), ""BSM Test"")",Firefox 81.0,,,2020-10-01 13:02:25,2020-10-01 13:02:26,0.763s,PASSED
+"click(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/span_Packing Slip_checkbox-icon large""))",Firefox 81.0,,,2020-10-01 13:02:26,2020-10-01 13:02:27,0.724s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/button_Update Cart""))",Firefox 81.0,,,2020-10-01 13:02:27,2020-10-01 13:02:27,0.276s,PASSED
+"click(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/button_Update Cart""))",Firefox 81.0,,,2020-10-01 13:02:27,2020-10-01 13:02:27,0.505s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/button_Checkout""))",Firefox 81.0,,,2020-10-01 13:02:27,2020-10-01 13:02:29,1.732s,PASSED
+"click(findTestObject(""Object Repository/Market_Checkout_Page/Page_Cart/button_Checkout""))",Firefox 81.0,,,2020-10-01 13:02:29,2020-10-01 13:02:30,0.491s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Clear_Cart/Page_Checkout/span_Previous Page""), 5)",Firefox 81.0,Market Clear Cart,,2020-10-01 13:02:30,2020-10-01 13:02:32,2.439s,PASSED
+"click(findTestObject(""Object Repository/Market_Clear_Cart/Page_Checkout/span_Previous Page""))",Firefox 81.0,,,2020-10-01 13:02:32,2020-10-01 13:02:33,0.716s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/span_Packing Slip_checkbox-icon large""), 5)",Firefox 81.0,,,2020-10-01 13:02:33,2020-10-01 13:02:34,0.842s,PASSED
+"click(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/span_Packing Slip_checkbox-icon large""))",Firefox 81.0,,,2020-10-01 13:02:34,2020-10-01 13:02:34,0.494s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/span_Delete""))",Firefox 81.0,,,2020-10-01 13:02:34,2020-10-01 13:02:34,0.267s,PASSED
+"click(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/span_Delete""))",Firefox 81.0,,,2020-10-01 13:02:34,2020-10-01 13:02:35,0.485s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/button_Confirm""), 5)",Firefox 81.0,,,2020-10-01 13:02:35,2020-10-01 13:02:35,0.286s,PASSED
+"click(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/button_Confirm""))",Firefox 81.0,,,2020-10-01 13:02:35,2020-10-01 13:02:36,0.497s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Market_Clear_Cart/Page_Cart/div_The selected item(s) were deleted""), 5)",Firefox 81.0,,,2020-10-01 13:02:36,2020-10-01 13:02:37,1.237s,PASSED
+"""Market Logout Page""",Firefox 81.0,,,2020-10-01 13:02:37,2020-10-01 13:02:37,0.001s,PASSED
+"click(findTestObject(""Object Repository/Market_Logout_Page/Page_Search/span_Logout""))",Firefox 81.0,Click on 'Logout' button,,2020-10-01 13:02:37,2020-10-01 13:02:38,1.022s,PASSED
+closeBrowser(),Firefox 81.0,,,2020-10-01 13:02:38,2020-10-01 13:02:39,0.850s,PASSED

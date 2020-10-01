@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Market_TS" time="39.112" tests="1" failures="0" errors="0">
+   <testsuite name="Market_TS" tests="1" failures="0" errors="0" time="39.112" timestamp="2020-10-01 13:02:44" hostname="habasse.traore - loh001ct8vemd6m.local" id="Test Suites/Market_TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/habasse.traore/git/market-kse-script/market-kse-script/Reports/20201001_130148/Market_TS/20201001_130151"/>
+         <property name="logFiles" value="/Users/habasse.traore/git/market-kse-script/market-kse-script/Reports/20201001_130148/Market_TS/20201001_130151/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="habasse.traore - loh001ct8vemd6m.local"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.7.1.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="169.254.223.194"/>
+         <property name="sessionId" value="5c7f1dd7d1ca4057e8ed83ede3978dcb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Market-Script" time="38.512" classname="Test Cases/Market-Script" status="PASSED">
+         <system-out><![CDATA[2020-10-01 13:02:44 - [TEST_CASE][PASSED] - Test Cases/Market-Script: Test Cases/Market-Script
+
+2020-10-01 13:02:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-01 13:02:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-01 13:02:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-01 13:02:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-01 13:02:49 - [TEST_STEP][PASSED] - navigateToUrl("market.cardinalhealth.com"): Navigate to 'http://market.cardinalhealth.com' successfully
+
+2020-10-01 13:02:51 - [MESSAGE][PASSED] - Navigate to 'http://market.cardinalhealth.com' successfully
+
+2020-10-01 13:02:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Market_Login_Page/Page_/input_Username_username"), 5): Object 'Object Repository/Market_Login_Page/Page_/input_Username_username' is visible
+
+2020-10-01 13:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Login_Page/Page_/input_Username_username' is visible
+
+2020-10-01 13:02:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Market_Login_Page/Page_/input_Username_username"), "mktnrsyn_int"): Text 'mktnrsyn_int' is set on object 'Object Repository/Market_Login_Page/Page_/input_Username_username'
+
+2020-10-01 13:02:53 - [MESSAGE][PASSED] - Text 'mktnrsyn_int' is set on object 'Object Repository/Market_Login_Page/Page_/input_Username_username'
+
+2020-10-01 13:02:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Market_Login_Page/Page_/input_ Case Sensitive_password"), 5): Object 'Object Repository/Market_Login_Page/Page_/input_ Case Sensitive_password' is visible
+
+2020-10-01 13:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Login_Page/Page_/input_ Case Sensitive_password' is visible
+
+2020-10-01 13:02:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Market_Login_Page/Page_/input_ Case Sensitive_password"), "Btbms4us!"): Text 'Btbms4us!' is set on object 'Object Repository/Market_Login_Page/Page_/input_ Case Sensitive_password'
+
+2020-10-01 13:02:54 - [MESSAGE][PASSED] - Text 'Btbms4us!' is set on object 'Object Repository/Market_Login_Page/Page_/input_ Case Sensitive_password'
+
+2020-10-01 13:02:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Market_Login_Page/Page_/button_Sign In")): Object: 'Object Repository/Market_Login_Page/Page_/button_Sign In' is clicked on
+
+2020-10-01 13:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Market_Login_Page/Page_/button_Sign In' is clicked on
+
+2020-10-01 13:02:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Market_Main_Page/Page_Home/ul_Products"), 5): Object 'Object Repository/Market_Main_Page/Page_Home/ul_Products' is visible
+
+2020-10-01 13:03:01 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Main_Page/Page_Home/ul_Products' is visible
+
+2020-10-01 13:03:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Market_Search_Page/Page_Home/button_Logout_home-search-button"), 5): Object 'Object Repository/Market_Search_Page/Page_Home/button_Logout_home-search-button' is visible
+
+2020-10-01 13:03:02 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Search_Page/Page_Home/button_Logout_home-search-button' is visible
+
+2020-10-01 13:03:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Market_Search_Page/Page_Home/input_Logout_col-xs-12 home-search-box ng-untouched ng-pristine ng-invalid"), "isolation gown yellow"): Text 'isolation gown yellow' is set on object 'Object Repository/Market_Search_Page/Page_Home/input_Logout_col-xs-12 home-search-box ng-untouched ng-pristine ng-invalid'
+
+2020-10-01 13:03:02 - [MESSAGE][PASSED] - Text 'isolation gown yellow' is set on object 'Object Repository/Market_Search_Page/Page_Home/input_Logout_col-xs-12 home-search-box ng-untouched ng-pristine ng-invalid'
+
+2020-10-01 13:03:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Market_Search_Page/Page_Home/button_Logout_home-search-button")): Object: 'Object Repository/Market_Search_Page/Page_Home/button_Logout_home-search-button' is clicked on
+
+2020-10-01 13:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Market_Search_Page/Page_Home/button_Logout_home-search-button' is clicked on
+
+2020-10-01 13:03:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Market_Add_To_Cart/Page_Search/h4_Category"), 5): Object 'Object Repository/Market_Add_To_Cart/Page_Search/h4_Category' is visible
+
+2020-10-01 13:03:07 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Add_To_Cart/Page_Search/h4_Category' is visible
+
+2020-10-01 13:03:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Market_Add_To_Cart/Page_Search/span_Add to Cart"), 5): Object 'Object Repository/Market_Add_To_Cart/Page_Search/span_Add to Cart' is visible
+
+2020-10-01 13:03:07 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Add_To_Cart/Page_Search/span_Add to Cart' is visible
+
+2020-10-01 13:03:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Market_Add_To_Cart/Page_Search/span_Add to Cart")): Object: 'Object Repository/Market_Add_To_Cart/Page_Search/span_Add to Cart' is clicked on
+
+2020-10-01 13:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Market_Add_To_Cart/Page_Search/span_Add to Cart' is clicked on
+
+2020-10-01 13:03:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Market_Add_To_Cart/Page_Search/span_1 Items"), 5): Object 'Object Repository/Market_Add_To_Cart/Page_Search/span_1 Items' is visible
+
+2020-10-01 13:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Add_To_Cart/Page_Search/span_1 Items' is visible
+
+2020-10-01 13:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Market_Add_To_Cart/Page_Search/span_Cart_full")): Object: 'Object Repository/Market_Add_To_Cart/Page_Search/span_Cart_full' is clicked on
+
+2020-10-01 13:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Market_Add_To_Cart/Page_Search/span_Cart_full' is clicked on
+
+2020-10-01 13:03:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Market_Checkout_Page/Page_Cart/span_Cart"), 5): Object 'Object Repository/Market_Checkout_Page/Page_Cart/span_Cart' is visible
+
+2020-10-01 13:03:11 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Checkout_Page/Page_Cart/span_Cart' is visible
+
+2020-10-01 13:03:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Market_Checkout_Page/Page_Cart/input_ PO_poNumber"), "PerfT0001"): Text 'PerfT0001' is set on object 'Object Repository/Market_Checkout_Page/Page_Cart/input_ PO_poNumber'
+
+2020-10-01 13:03:12 - [MESSAGE][PASSED] - Text 'PerfT0001' is set on object 'Object Repository/Market_Checkout_Page/Page_Cart/input_ PO_poNumber'
+
+2020-10-01 13:03:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Market_Checkout_Page/Page_Cart/textarea_PO Memo_poMemo"), "BSM Test"): Text 'BSM Test' is set on object 'Object Repository/Market_Checkout_Page/Page_Cart/textarea_PO Memo_poMemo'
+
+2020-10-01 13:03:12 - [MESSAGE][PASSED] - Text 'BSM Test' is set on object 'Object Repository/Market_Checkout_Page/Page_Cart/textarea_PO Memo_poMemo'
+
+2020-10-01 13:03:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Market_Checkout_Page/Page_Cart/span_Packing Slip_checkbox-icon large")): Object: 'Object Repository/Market_Checkout_Page/Page_Cart/span_Packing Slip_checkbox-icon large' is clicked on
+
+2020-10-01 13:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Market_Checkout_Page/Page_Cart/span_Packing Slip_checkbox-icon large' is clicked on
+
+2020-10-01 13:03:13 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Market_Checkout_Page/Page_Cart/button_Update Cart")): Object 'Object Repository/Market_Checkout_Page/Page_Cart/button_Update Cart' is clickable
+
+2020-10-01 13:03:13 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Checkout_Page/Page_Cart/button_Update Cart' is clickable
+
+2020-10-01 13:03:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Market_Checkout_Page/Page_Cart/button_Update Cart")): Object: 'Object Repository/Market_Checkout_Page/Page_Cart/button_Update Cart' is clicked on
+
+2020-10-01 13:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Market_Checkout_Page/Page_Cart/button_Update Cart' is clicked on
+
+2020-10-01 13:03:13 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Market_Checkout_Page/Page_Cart/button_Checkout")): Object 'Object Repository/Market_Checkout_Page/Page_Cart/button_Checkout' is clickable
+
+2020-10-01 13:03:15 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Checkout_Page/Page_Cart/button_Checkout' is clickable
+
+2020-10-01 13:03:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Market_Checkout_Page/Page_Cart/button_Checkout")): Object: 'Object Repository/Market_Checkout_Page/Page_Cart/button_Checkout' is clicked on
+
+2020-10-01 13:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Market_Checkout_Page/Page_Cart/button_Checkout' is clicked on
+
+2020-10-01 13:03:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Market_Clear_Cart/Page_Checkout/span_Previous Page"), 5): Object 'Object Repository/Market_Clear_Cart/Page_Checkout/span_Previous Page' is visible
+
+2020-10-01 13:03:18 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Clear_Cart/Page_Checkout/span_Previous Page' is visible
+
+2020-10-01 13:03:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Market_Clear_Cart/Page_Checkout/span_Previous Page")): Object: 'Object Repository/Market_Clear_Cart/Page_Checkout/span_Previous Page' is clicked on
+
+2020-10-01 13:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Market_Clear_Cart/Page_Checkout/span_Previous Page' is clicked on
+
+2020-10-01 13:03:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Market_Clear_Cart/Page_Cart/span_Packing Slip_checkbox-icon large"), 5): Object 'Object Repository/Market_Clear_Cart/Page_Cart/span_Packing Slip_checkbox-icon large' is visible
+
+2020-10-01 13:03:19 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Clear_Cart/Page_Cart/span_Packing Slip_checkbox-icon large' is visible
+
+2020-10-01 13:03:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Market_Clear_Cart/Page_Cart/span_Packing Slip_checkbox-icon large")): Object: 'Object Repository/Market_Clear_Cart/Page_Cart/span_Packing Slip_checkbox-icon large' is clicked on
+
+2020-10-01 13:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Market_Clear_Cart/Page_Cart/span_Packing Slip_checkbox-icon large' is clicked on
+
+2020-10-01 13:03:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Market_Clear_Cart/Page_Cart/span_Delete")): Object 'Object Repository/Market_Clear_Cart/Page_Cart/span_Delete' is clickable
+
+2020-10-01 13:03:20 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Clear_Cart/Page_Cart/span_Delete' is clickable
+
+2020-10-01 13:03:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Market_Clear_Cart/Page_Cart/span_Delete")): Object: 'Object Repository/Market_Clear_Cart/Page_Cart/span_Delete' is clicked on
+
+2020-10-01 13:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Market_Clear_Cart/Page_Cart/span_Delete' is clicked on
+
+2020-10-01 13:03:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Market_Clear_Cart/Page_Cart/button_Confirm"), 5): Object 'Object Repository/Market_Clear_Cart/Page_Cart/button_Confirm' is visible
+
+2020-10-01 13:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Clear_Cart/Page_Cart/button_Confirm' is visible
+
+2020-10-01 13:03:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Market_Clear_Cart/Page_Cart/button_Confirm")): Object: 'Object Repository/Market_Clear_Cart/Page_Cart/button_Confirm' is clicked on
+
+2020-10-01 13:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Market_Clear_Cart/Page_Cart/button_Confirm' is clicked on
+
+2020-10-01 13:03:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Market_Clear_Cart/Page_Cart/div_The selected item(s) were deleted"), 5): Object 'Object Repository/Market_Clear_Cart/Page_Cart/div_The selected item(s) were deleted' is visible
+
+2020-10-01 13:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/Market_Clear_Cart/Page_Cart/div_The selected item(s) were deleted' is visible
+
+2020-10-01 13:03:22 - [TEST_STEP][PASSED] - "Market Logout Page": null
+
+2020-10-01 13:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Market_Logout_Page/Page_Search/span_Logout")): Object: 'Object Repository/Market_Logout_Page/Page_Search/span_Logout' is clicked on
+
+2020-10-01 13:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Market_Logout_Page/Page_Search/span_Logout' is clicked on
+
+2020-10-01 13:03:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-01 13:03:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-01 13:02:44 - [TEST_SUITE][PASSED] - Market_TS: Test Cases/Market-Script]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
