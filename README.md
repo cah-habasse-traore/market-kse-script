@@ -78,11 +78,41 @@ jobs:
       - task: market-kre
         file: market-kse-script/kre-task.yml
 ```
-<h5>7. Provided the kre-task.yml and kse-script.sh file in the repo  </h5>
+<h5>7. kre-task.yml configuration </h5>
 
-<h5>8. FLY command you deploy the pipeline  </h5>
+This task uses the latest Katalon Studio docker image to perform the execution through the cli inside of Concourse
+
+```
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: katalonstudio/katalon}
+
+inputs:
+ - name: market-kse-script
+
+run:
+  path: /bin/sh
+  args: ["market-kse-script/kse-script.sh"]
+  
+  ```
+
+<h5>8. kse-script.sh </h5>
+
+The kse-script.sh shell script is located in the ./market-kse-script/ folder inside the container and we run the below shell to perform the execution against the targeted tested environemnt.
+
+```
+katalonc.sh -projectPath=./market-kse-script -retry=1 -retryStrategy=allExecutions -testSuiteCollectionPath="Test Suites/Market_TSC" -apiKey="XXXX" --config -webui.autoUpdateDrivers=true
+
+```
+Please not that you will need to use you own api key has per your katalon license agreemnt to be able to excute through the commad line and also in a cloud provider environment 
+
+    -apiKey="XXXX" 
+
+<h5>9. FLY command you deploy the pipeline  </h5>
   
      *Set a Pipeline
            fly -t (tutorial) set-pipeline -c (path to pipeline configuration .yml file) -p (pipeline name)
-           EX- Set the pipeline named "market-kre" using the "-market-kse-pipeline.yml" configuration file.
-               fly -t tutorial set-pipeline -c kre-pipeline.yml -p market-kre
+           EX- Set the pipeline named "market-kre" using the "-market-kre-pipeline.yml" configuration file.
+               fly -t tutorial set-pipeline -c market-kre-pipeline.yml -p market-kre
