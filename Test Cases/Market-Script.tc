@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Market-Script</name>
+   <tag>Script</tag>
+   <comment>Market Logout Page</comment>
+   <testCaseGuid>7d14f171-fe5b-4c90-b276-60a303c173a5</testCaseGuid>
+</TestCaseEntity>
