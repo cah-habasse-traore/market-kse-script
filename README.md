@@ -7,13 +7,13 @@ The main goal is to enable projects team to implement testing has part of thier 
 
 <h5>2. Execute Katalon script inside Docker </h5>
  
-Docker commands to launch Katalon and run the test inside the container
+    Docker commands to launch Katalon and run the test inside the container
  
- * Execute a Test Suite in a docker for a specified browser type
-    * docker run -t --rm -v "$(pwd)":{volume mounted to container} katalonstudio/katalon katalonc.sh -projectPath={Katalon-script-folder} -retry=1 -retryStrategy=allExecutions -testSuiteCollectionPath="Test Suites/{ktl-test-suite-collection-TSC}" -apiKey="{katalon licensed account API Key}"
+     * Execute a Test Suite in a docker for a specified browser type
+         docker run -t --rm -v "$(pwd)":{volume mounted to container} katalonstudio/katalon katalonc.sh -projectPath={Katalon-script-folder} -retry=1 -retryStrategy=allExecutions -testSuiteCollectionPath="Test Suites/{ktl-test-suite-collection-TSC}" -apiKey="{katalon licensed account API Key}"
   
- * Execute a Test Suite Collection in a docker with the specified browserType for each Test Suite - Can be exeucted Sequentionally or in Parrallel depending on the use case
-    * docker run -t --rm -v "$(pwd)":{volume mounted to container} katalonstudio/katalon katalonc.sh -projectPath={Katalon-script-folder} -retry=1 -retryStrategy=allExecutions -testSuiteCollectionPath="Test Suites/{ktl-test-suite-collection-TSC}" -apiKey="{katalon licensed account API Key}"
+     * Execute a Test Suite Collection in a docker with the specified browserType for each Test Suite - Can be exeucted Sequentionally or in Parrallel depending on the use case
+         docker run -t --rm -v "$(pwd)":{volume mounted to container} katalonstudio/katalon katalonc.sh -projectPath={Katalon-script-folder} -retry=1 -retryStrategy=allExecutions -testSuiteCollectionPath="Test Suites/{ktl-test-suite-collection-TSC}" -apiKey="{katalon licensed account API Key}"
 
 <h5>3. Execute Katalon Script through the CLI  </h5>
 
@@ -35,16 +35,16 @@ Docker commands to launch Katalon and run the test inside the container
    
   ![Image of Yaktocat]()
 
-├── market-kre:
-│   │ 
-│   ├── timer resource:
-│   │
-│   │
-│   ├── git resource: ./market-kse-script/
-│   │                             │   ├── scripts
-│   │                                       │   ├── kre-task.yml
-│   │                                                    │   │
-│   │                                                    │   └── kse-script.sh
+-├── market-kre:
+-│   │ 
+-│   ├── timer resource:
+-│   │
+-│   │
+-│   ├── git resource: ./market-kse-script/
+-│   │                             │   ├── scripts
+-│   │                                       │   ├── kre-task.yml
+-│   │                                                    │   │
+-│   │                                                    │   └── kse-script.sh
 
     
     1. market-kre                 is my Pipeline
@@ -60,7 +60,7 @@ resources:
   - name: market-kse-script
     type: git
     source:
-      uri: https://github.com/cah-habasse-traore/market-kse-script.git
+      uri: market-kse-script.git
       branch: master
 
   - name: execution-timer
