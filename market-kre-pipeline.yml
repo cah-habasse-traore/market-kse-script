@@ -1,5 +1,5 @@
 resources:
-  - name: kse-script
+  - name: market-kse-script
     type: git
     source:
       uri: https://github.com/cah-habasse-traore/market-kse-script.git
@@ -18,6 +18,6 @@ jobs:
       - get: execution-timer
         trigger: true
       - task: market-kre
-        file: kse-script/kre-task.yml
+        file: market-kse-script/kre-task.yml
 
 

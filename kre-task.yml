@@ -5,8 +5,8 @@ image_resource:
   source: {repository: katalonstudio/katalon}
 
 inputs:
- - name: kse-script
+ - name: market-kse-script
 
 run:
   path: /bin/sh
-  args: ["kse-script/kse-script.sh"]
+  args: ["market-kse-script/kse-script.sh"]

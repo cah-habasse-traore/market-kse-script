@@ -2,7 +2,7 @@
 
 set -e
 
-# kse-script.sh shell script is located in the ./kse-script/ folder
+# kse-script.sh shell script is located in the ./market-kse-script/ folder
 # run the below command inside the Katalon Container to execute katalon script of the targeted tested application
 
 echo $PATH
