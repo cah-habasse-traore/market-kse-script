@@ -6,7 +6,7 @@
    <UUID>85f70a92-a86c-4c6c-9916-3232087a82f3</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/habasse.traore/git/market-kse-script/Market_Script_POC.prj</projectFileLocation>
+   <projectFileLocation>/Users/habasse.traore/git/market-kse-script/market-kse-script/Market_Script_POC.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
