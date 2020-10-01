@@ -1,7 +1,6 @@
 <h1> KATALON integration with CONCOURSE-CI </h1>
 
-<h3>This sample code aimied to guide users on how to integrate a Katalon Script with a Concource pipeline.
-The main goal is to enable projects team to implement testing has part of thier CI/CD pipeline.</h3>
+<h3>This sample code aim is to guide users on how to create and integrate a Katalon Script with a Concource pipeline.</h3>
 
 <h5>1. Create Katalon Script</h5>
 
@@ -32,21 +31,21 @@ The main goal is to enable projects team to implement testing has part of thier 
 <h5>5. Create Concourse Pipeline  </h5>
 
     Create your pipeline using your katalon script has a Git-Hub Resource following the template below. 
-   
-  ![Image of Yaktocat]()
-
--├── market-kre:
--│   │ 
--│   ├── timer resource:
--│   │
--│   │
--│   ├── git resource: ./market-kse-script/
--│   │                             │   ├── scripts
--│   │                                       │   ├── kre-task.yml
--│   │                                                    │   │
--│   │                                                    │   └── kse-script.sh
-
     
+```    
+├── market-kre:
+│   │
+│   ├── timer resource:
+│   │
+│   │
+│   ├── git resource: ./market-kse-script/
+│   │                             │   ├── scripts
+│   │                                       │   ├── kre-task.yml
+│   │                                                    │   │
+│   │                                                    │   └── kse-script.sh
+
+ ```   
+   
     1. market-kre                 is my Pipeline
     2. market-kse-script          is my Katalon Script - called has a resource in my concourse pipeline
     3. timer                      is my pipeline timer resource 
@@ -55,7 +54,8 @@ The main goal is to enable projects team to implement testing has part of thier 
     5. kse-script.sh              is my katalon execution shell script:
     
 <h5>6. market-kre-pipeline.yml configuration  </h5>
-  
+
+```  
 resources:
   - name: market-kse-script
     type: git
@@ -77,7 +77,7 @@ jobs:
         trigger: true
       - task: market-kre
         file: market-kse-script/kre-task.yml
-
+```
 <h5>7. Provided the kre-task.yml and kse-script.sh file in the repo  </h5>
 
 <h5>8. FLY command you deploy the pipeline  </h5>
