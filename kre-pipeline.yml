@@ -1,0 +1,23 @@
+resources:
+  - name: kse-script
+    type: git
+    source:
+      uri: https://github.com/cah-habasse-traore/kse-script.git
+      branch: master
+
+  - name: execution-timer
+    type: time
+    source:
+      interval: 30m
+      
+jobs:
+ - name: market-kre-job
+   public: true
+   plan:
+      - get: kse-script
+      - get: execution-timer
+        trigger: true
+      - task: market-kre
+        file: kse-script/kre-task.yml
+
+

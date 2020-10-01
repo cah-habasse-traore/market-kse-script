@@ -1,0 +1,12 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: katalonstudio/katalon}
+
+inputs:
+ - name: kse-script
+
+run:
+  path: /bin/sh
+  args: ["kse-script/kse-script.sh"]
