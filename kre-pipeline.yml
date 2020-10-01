@@ -2,7 +2,7 @@ resources:
   - name: kse-script
     type: git
     source:
-      uri: https://github.com/cah-habasse-traore/kse-script.git
+      uri: https://github.com/cah-habasse-traore/market-kse-script.git
       branch: master
 
   - name: execution-timer
@@ -14,7 +14,7 @@ jobs:
  - name: market-kre-job
    public: true
    plan:
-      - get: kse-script
+      - get: market-kse-script
       - get: execution-timer
         trigger: true
       - task: market-kre

@@ -7,4 +7,4 @@ set -e
 
 echo $PATH
 
-katalonc.sh -projectPath=./kse-script -retry=1 -retryStrategy=allExecutions -testSuiteCollectionPath="Test Suites/Market_TSC" -apiKey="5c150d5c-a512-41a2-a42c-48f4ec07560e" --config -webui.autoUpdateDrivers=true
+katalonc.sh -projectPath=./market-kse-script -retry=1 -retryStrategy=allExecutions -testSuiteCollectionPath="Test Suites/Market_TSC" -apiKey="5c150d5c-a512-41a2-a42c-48f4ec07560e" --config -webui.autoUpdateDrivers=true
