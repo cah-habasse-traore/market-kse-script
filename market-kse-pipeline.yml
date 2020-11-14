@@ -1,0 +1,29 @@
+# fly login --target ndxpr_dso --team-name devsecops --concourse-url https://concourse-ndx.dev1.cardinalhealth.net/
+# fly -t ndxpr_dso sp -c kse-pipeline.yml -p kse-market-dev
+# Updated description  
+
+env-key: &env-key
+ APIKEY-VALUE: ((katalon.DEV-APIKEY-VALUE))
+resources:
+  - name: market-kse-script
+    type: git
+    source:
+      uri: git@github.com:CardinalHealth/market-kse-script.git
+      branch: master
+
+  - name: execution-timer
+    type: time
+    source:
+      interval: 30m
+      
+jobs:
+ - name: market-kse-job
+   public: true
+   plan:
+      - get: market-kse-script
+      - get: execution-timer
+        trigger: true
+      - task: market-kse
+        file: market-kse-script/kse-task.yml
+
+
