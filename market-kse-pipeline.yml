@@ -1,6 +1,6 @@
 # fly login --target ndxpr_dso --team-name devsecops --concourse-url https://concourse-ndx.dev1.cardinalhealth.net/
-# fly -t ndxpr_dso sp -c kse-pipeline.yml -p kse-market-dev
-# Updated description  
+# fly -t ndxpr_dso sp -c market-kse-pipeline.yml -p katalon-market-dev
+
 
 env-key: &env-key
  APIKEY-VALUE: ((katalon.DEV-APIKEY-VALUE))
